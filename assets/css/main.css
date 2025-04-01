@@ -153,7 +153,7 @@ input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 1.5;
 	}
 
 	a {
@@ -216,6 +216,7 @@ input, select, textarea {
 
 	h4 {
 		font-size: 1rem;
+		margin: 0 0 0.2rem 0;
 	}
 
 	h5 {
@@ -229,13 +230,13 @@ input, select, textarea {
 	sub {
 		font-size: 0.8rem;
 		position: relative;
-		top: 0.5rem;
+		top: 0.3rem;
 	}
 
 	sup {
 		font-size: 0.8rem;
 		position: relative;
-		top: -0.5rem;
+		top: -0.3rem;
 	}
 
 	blockquote {
@@ -2600,8 +2601,15 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image.headshot {
+			max-width: 20%;
+		}
+			.image.headshot img {
+				width: 100%;
+			}
+
 		.image.left, .image.right {
-			max-width: 25%;
+			max-width: 45%;
 		}
 
 			.image.left img, .image.right img {
@@ -2618,6 +2626,12 @@ input, select, textarea {
 			float: right;
 			margin: 0 0 2rem 2rem;
 			top: 0.75rem;
+		}
+
+		.image.headshot {
+			float: right;
+			margin: 0 0 1rem 1rem;
+			top: -0.5rem;
 		}
 
 
@@ -2948,7 +2962,7 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 0 0 2rem 0;
 			text-align: center;
 		}
 
@@ -3782,7 +3796,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 2rem 8rem 2rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
